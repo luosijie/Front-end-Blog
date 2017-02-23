@@ -8,9 +8,12 @@
 >+ Emmet的语法和使用
 
 003 [FormData 异步上传文件](https://github.com/luosijie/blog/blob/master/%5B003%5D%20FormData%20%E5%BC%82%E6%AD%A5%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6.md)
-> + Html5 FormDataAPI的使用
-> + ajax异步上传FormData数据
+>+ Html5 FormDataAPI的使用
+>+ ajax异步上传FormData数据
 
 004 [Express保存base64图片](https://github.com/luosijie/blog/blob/master/%5B004%5D%20Express%E4%BF%9D%E5%AD%98base64%E5%9B%BE%E7%89%87.md)
 >+ Html5 FileReaderAPI的使用
 >+ Express文件的写入
+
+005 [html2Canvas的使用](http://html2canvas.hertzen.com/documentation.html)       
+>+ html2Canvas的使用方法 
