@@ -1,5 +1,5 @@
 # html2Canvas的使用
-html2Canvas是一款可以将html Dom 转化为 canvas图片 的js插件
+html2Canvas是一款可以将html Dom 转化为 canvas图片 的js插件         
 gitHub地址: https://github.com/niklasvh/html2canvas
 
 ### 浏览器支持
