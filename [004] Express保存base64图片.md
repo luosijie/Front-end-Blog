@@ -55,20 +55,20 @@ var fs = require('fs');
 router.post('/uploadImage', function(req, res){
 	var form = new multiparty.Form();
 	form.parse(req, function(err, fields, files){
-        //将前台传来的base64数据去掉前缀
-		var imgData = fields.imgData[0].replace(/^data:image\/\w+;base64,/, '');
+		var imgDatas = fields.editImg;
+		var imgList = [];
 
-		var dataBuffer = new Buffer(imgData, 'base64');
-        //写入文件
-		fs.writeFile('public/images/imge.png', dataBuffer, function(err){
-			if(err){
-				res.send(err);
-			}else{
-				res.send('保存成功');
-			}
-		});
+		for(let i = 0; i < imgDatas.length; i++){
+			elem = imgDatas[i].replace(/^data:image\/\w+;base64,/, '');
+			var dataBuffer = new Buffer(elem, 'base64');
+			var imgName = 'img' + Date.now() + i + '.png';
+			//写入系统文件
+			fs.writeFileSync(path.join(__dirname, '../public/tempImg/') + imgName , dataBuffer);
+			imgList.push(imgName)
+		}
 
-	});
+		res.send(imgList);
+	})
 
 });
 ```
