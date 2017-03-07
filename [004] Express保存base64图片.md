@@ -62,12 +62,12 @@ router.post('/uploadImage', function(req, res){
 			elem = imgDatas[i].replace(/^data:image\/\w+;base64,/, '');
 			var dataBuffer = new Buffer(elem, 'base64');
 			var imgName = 'img' + Date.now() + i + '.png';
-			//写入系统文件
+			//同步写入图片文件
 			fs.writeFileSync(path.join(__dirname, '../public/tempImg/') + imgName , dataBuffer);
 			imgList.push(imgName)
 		}
-
-		res.send(imgList);
+		//返回图片名数组
+                res.send(imgList);
 	})
 
 });
