@@ -17,3 +17,5 @@
 
 005 [html2Canvas的使用](http://html2canvas.hertzen.com/documentation.html)       
 >+ html2Canvas的使用方法 
+
+006 [js实现元素拖拽]（https://github.com/luosijie/Front-end-Blog/blob/master/%5B006%5D%20js%E5%AE%9E%E7%8E%B0%E5%85%83%E7%B4%A0%E6%8B%96%E6%8B%BD.md）
