@@ -1,9 +1,9 @@
-###DOM
+### DOM
 ```
 <input type="file" name="image" accept="image/*">
 <input type="submit" value="上传图片">
 ```
-###Javascript
+### Javascript
 - 使用 FileReader 将本地图片解析为base64格式
 - 使用 FormData 作为载体将base64图片数据传到后台
 ```
@@ -41,7 +41,7 @@ var fileReader = new FileReader(),
     }
     
 ```
-###Express
+### Express
 - 使用Multipaty解析表单
 ```
 var express = require('express');
