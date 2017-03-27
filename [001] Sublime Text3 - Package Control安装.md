@@ -1,4 +1,4 @@
-###**在线安装**
+### **在线安装**
 **1、打开Sublime Text3控制台**
 快捷键ctrl+` 或 View > Show Console
 
