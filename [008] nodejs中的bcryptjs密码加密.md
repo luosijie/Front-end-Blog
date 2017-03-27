@@ -14,7 +14,7 @@ var bcrypt = require('bcryptjs');
 ...
 ```
 
-### 用法-同步(Sync)
+### 同步用法(Sync)
 生成hash密码
 ```
 var bcrypt = require('bcryptjs');
@@ -35,7 +35,7 @@ bcrypt.compareSync("not_bacon", hash); // false
 var hash = bcrypt.hashSync('bacon', 8);
 ```
 
-### 用法-异步(Async)
+### 异步用法(Async)
 生成hash密码
 ```
 var bcrypt = require('bcryptjs');
