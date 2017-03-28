@@ -1,8 +1,8 @@
 # Express4.0 基于MongoDB的session用法
 Session —— 用来存储特定用户会话所需的属性及配置信息。
 ### 安装依赖
+Express4.0将session模块拆分出来
 ```
-//Express4.0将session模块拆分出来
 npm install express-session
 ```
 ```
