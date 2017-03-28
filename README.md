@@ -19,3 +19,7 @@
 >+ html2Canvas的使用方法 
 
 006 [js实现元素拖拽](https://github.com/luosijie/Front-end-Blog/blob/master/%5B006%5D%20js%E5%AE%9E%E7%8E%B0%E5%85%83%E7%B4%A0%E6%8B%96%E6%8B%BD.md)
+
+007 [Git常用代码](https://github.com/luosijie/Front-end-Blog/blob/master/%5B007%5D%20Git%E5%B8%B8%E7%94%A8%E4%BB%A3%E7%A0%81.md)
+
+008 [nodejs中的bcryptjs密码加密](https://github.com/luosijie/Front-end-Blog/blob/master/%5B008%5D%20nodejs%E4%B8%AD%E7%9A%84bcryptjs%E5%AF%86%E7%A0%81%E5%8A%A0%E5%AF%86.md)
