@@ -1,9 +1,9 @@
 ## gulp-uglify(JS压缩)
-安装
+**安装**
 ```
 npm install --save-dev gulp-uglify
 ```
-使用
+**使用**
 ```
 var gulp = require('gulp');  //加载gulp
 var uglify = require('gulp-uglify');  //加载js压缩
@@ -17,11 +17,11 @@ gulp.task('uglify', function () {
 ```
 
 ## gulp-minify-css（CSS压缩
-安装
+**安装**
 ```
 npm install --save-dev gulp-minify-css
 ```
-使用
+**使用**
 ```
 var gulp = require('gulp');
 var minify = require('gulp-minify-css');
@@ -34,11 +34,11 @@ gulp.task('cssmini', function () {
 ```
 
 ## gulp-minify-html（html压缩）
-安装
+**安装**
 ```
 npm install --save-dev gulp-minify-html
 ```
-使用
+**使用**
 ```
 var gulp = require('gulp');
 var htmlmini = require('gulp-minify-html');
@@ -51,11 +51,11 @@ gulp.task('htmlmini', function () {
 ```
 
 ## gulp-jshint（JS代码检查）
-安装
+**安装**
 ```
 npm install --save-dev gulp-jshint
 ```
-使用
+**使用**
 ```
 var gulp = require('gulp');
 var jshint = require("gulp-jshint");
@@ -68,11 +68,11 @@ gulp.task('jsLint', function () {
 ```
 
 ## gulp-concat（文件合并)
-安装
+**安装**
 ```
 npm install --save-dev gulp-concat
 ```
-使用
+**使用**
 ```
 var gulp = require('gulp');
 var concat = require("gulp-concat");
@@ -85,11 +85,11 @@ gulp.task('concat', function () {
 ```
 
 ## gulp-less（编译Less）
-安装
+**安装**
 ```
 npm install --save-dev gulp-less
 ```
-使用  
+**使用**  
 ```
 var gulp = require('gulp'),
     less = require("gulp-less");
@@ -102,11 +102,11 @@ gulp.task('compile-less', function () {
 ```
 
 ## gulp-sass（编译Sass）
-安装
+**安装**
 ```
 npm install --save-dev gulp-sass
 ```
-使用
+**使用**
 ```
 var gulp = require('gulp'),
     sass = require("gulp-sass");
@@ -119,11 +119,11 @@ gulp.task('compile-sass', function () {
 ```
 
 ## gulp-livereload（自动刷新）
-安装
+**安装**
 ```
 npm install --save-dev gulp-livereload
 ```
-使用
+**使用**
 
 当代码变化时，它可以帮助我们自动刷新页面，该插件最好配合谷歌浏览器，且要安装livereload chrome extension扩展插件，否则无效。
 ```
