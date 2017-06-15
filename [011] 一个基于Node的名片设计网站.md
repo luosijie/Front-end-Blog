@@ -12,6 +12,10 @@
 4. npm start
 5. 访问 localhost:3000
 
+## 使用到是技术
+1. Node + Express
+2. MongoDB + Mongoose
+
 ## 实现功能
 1. 登录注册
 2. 图片简单处理
