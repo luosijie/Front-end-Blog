@@ -12,7 +12,7 @@
 4. npm start
 5. 访问 localhost:3000
 
-## 使用到是技术
+## 使用到的技术
 1. Node + Express
 2. MongoDB + Mongoose
 
