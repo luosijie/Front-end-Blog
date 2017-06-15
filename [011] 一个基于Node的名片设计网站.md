@@ -46,8 +46,8 @@
 ![structure](https://github.com/luosijie/Front-end-Blog/blob/master/img/edit.PNG)
 
 #### 管理员上传模板
-
 注意：这个页面的权限只有 **用户名为admin** 才可以访问，没办法就是这么不科学
+
 ![structure](https://github.com/luosijie/Front-end-Blog/blob/master/img/upload.PNG?raw=true)
 
 #### 个人中心
