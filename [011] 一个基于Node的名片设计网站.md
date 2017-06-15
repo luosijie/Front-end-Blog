@@ -7,7 +7,7 @@
 
 ## 安装
 1. 安装MongoDB并成功启动
-2. git clone "https://github.com/luosijie/card](https://github.com/luosijie/card.git"
+2. git clone "https://github.com/luosijie/card.git"
 3. npm install
 4. npm start
 5. 访问 localhost:3000
