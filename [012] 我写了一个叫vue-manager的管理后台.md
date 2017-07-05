@@ -164,9 +164,13 @@ export default {
 ### vm-table
 vm-table的可编辑模式可以实现数据的增删改,
 分别通过
+
 v-on:add-ok="add"
+
 v-on:delete-ok="deletefn">
+
 v-on:delete-ok="deletefn">
+
 来实现
 
 ![vm-table](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm-table.PNG?raw=true)
