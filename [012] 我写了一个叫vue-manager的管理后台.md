@@ -2,7 +2,10 @@
   <img width="400" height="400" src="https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_logo.png?raw=true">
 </div>
 这是我在学完Vue后写的个人项目(也是我的第二个 个人项目), 在此分享给大家学习使用。
-这是一个以Vue2.0为框架，结合 iView 和 eCharts 的后台组件， 可以说是在 iView 基础上的进一步组件化。希望可以帮助使用者快速搭建基于Vue2.0的管理后台。
+这是一个以Vue2.0为框架，结合 iView 和 eCharts 的后台组件， 可以说是在 iView 基础上的进一步组件化。
+默认的主题沿用vue的官方主题绿, logo的设计也是用 vue的官方logo 简单变形得到 M 的形状。
+
+希望可以帮助使用者快速搭建基于Vue2.0的管理后台。
 
 
 项目地址 [https://github.com/luosijie/vue-manager](https://github.com/luosijie/vue-manager)
