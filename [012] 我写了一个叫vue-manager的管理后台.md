@@ -14,7 +14,7 @@
 2. git clone "https://github.com/luosijie/vue-manager.git"
 3. cpm install
 4. cpm run dev
-5. 访问 localhost:3000
+5. 访问 localhost:8080
 
 ## 依赖
 1. Vue2.0
