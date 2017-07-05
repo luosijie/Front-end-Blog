@@ -12,7 +12,7 @@
 
 项目地址 [https://github.com/luosijie/vue-manager](https://github.com/luosijie/vue-manager)
 
-预览地址 [http://card.luosj.me](https://luosijie.github.io/vue-manager/)
+预览地址 [https://luosijie.github.io/vue-manager](https://luosijie.github.io/vue-manager/)
 
 ## 安装
 1. 安装 Node / npm(cnpm)
