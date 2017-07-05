@@ -187,6 +187,17 @@ v-on:delete-ok="deletefn">
 ...
 
 export default {
+  methods: {
+    add: function (data) {
+      //...
+    },
+    edit: function (data) {
+      //...
+    },
+    deletefn: function (data) {
+      //...
+    }
+  },
   data: function () {
     return {
       dataColumns: [
