@@ -7,7 +7,7 @@
 默认的主题沿用vue的官方主题绿, logo的设计也是用 vue的官方logo 简单变形得到 M 的形状。
 
 
-希望可以帮助使用者快速搭建基于Vue2.0的管理后台。
+> 希望可以帮助使用者快速搭建基于Vue2.0的管理后台。
 
 
 项目地址 [https://github.com/luosijie/vue-manager](https://github.com/luosijie/vue-manager)
