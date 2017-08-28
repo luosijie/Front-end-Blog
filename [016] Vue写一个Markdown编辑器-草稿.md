@@ -2,7 +2,7 @@
 
 这是最近用Vue写的一个Markeddown编辑器, 主要目的是扩展[Vue-Manager](https://github.com/luosijie/vue-manager)的编辑器功能。核心功能引入了[Marked](https://github.com/chjj/marked)插件,将Markedown文档解析为html。样式基本沿用了[vm-editor]，并增加了多种主题选择的功能。
 
-项目已经打包上传到[npm](https://www.npmjs.com/package/vm-markdown),欢迎使用。
+项目已经打包上传到[npm](https://www.npmjs.com/package/vm-markdown)，欢迎使用。
 
 预览地址 [https://luosijie.github.io/vm-markdown/](https://luosijie.github.io/vm-markdown/)
 
