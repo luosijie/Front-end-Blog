@@ -1,11 +1,12 @@
 ![图片]()
 
 这是最近用Vue写的一个Markeddown编辑器, 主要目的是扩展[Vue-Manager](https://github.com/luosijie/vue-manager)的编辑器功能。核心功能引入了[Marked](https://github.com/chjj/marked)插件,将Markedown文档解析为html。样式基本沿用了[vm-editor]，并增加了多种主题选择的功能。
+
 项目已经打包上传到[npm](https://www.npmjs.com/package/vm-markdown),欢迎使用。
 
-[预览地址](https://luosijie.github.io/vm-markdown/)
+预览地址 [https://luosijie.github.io/vm-markdown/](https://luosijie.github.io/vm-markdown/)
 
-[源码地址](https://github.com/luosijie/vm-markdown)
+源码地址 [https://github.com/luosijie/vm-markdown](https://github.com/luosijie/vm-markdown)
 
 ### 安装
 
@@ -41,7 +42,7 @@ export default {
 </VmMarkdown>
 ```
 
-## 功能实现
+# 功能实现
 
 vm-markdown作为一款 **以简洁易用为目标** 的编辑器, 核心解析功能由 **Marked** 来完成, 而其他功能主要为优化部分不熟悉**Markdown语法**用户的使用体验。
 主要功能可以分为:
@@ -52,7 +53,7 @@ vm-markdown作为一款 **以简洁易用为目标** 的编辑器, 核心解析�
 - 实现表格的的快速输入功能
 - 实现编辑区域的缩放功能
 
-### Markdown文本插入
+## Markdown文本插入
 
 使用 execCommand 来实现文本插入
 
@@ -73,7 +74,7 @@ vm-markdown作为一款 **以简洁易用为目标** 的编辑器, 核心解析�
   ...
 ```
 
-### Markdown文本解析为html
+## Markdown文本解析为html
 
 Dom结构
 
@@ -111,7 +112,7 @@ Dom结构
   },
 ```
 
-### 增加自定义样式
+## 增加自定义样式
 
 因为 Marked 解析出来的html，是不带任何样式的，所以需要自定义样式，并确保最后输出带样式的html字符串
 
@@ -192,7 +193,7 @@ Dom结构
   },
 ```
 
-### 表格的的快速输入
+## 表格的的快速输入
 
 Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作实现快捷输入
 
@@ -262,7 +263,7 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 
 ```
 
-### 编辑区的缩放功能
+## 编辑区的缩放功能
 
 ![编辑区域]()
 
@@ -304,7 +305,7 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 <VmMarkdownMenu  @click.native="layout"></VmMarkdownMenu>
 ```
 
-## 最后
+### 最后
 
 由于项目使用了**字体图标**, 再加上优化欠佳，导致目前打包上传到npm的文件有**80k**左右，欢迎有任何建议和意见的朋友，或者是用户体验和功能方面的问题，到[github](https://github.com/luosijie/vm-markdown/issues) 反馈
 
