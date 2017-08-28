@@ -305,9 +305,6 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 <VmMarkdownMenu  @click.native="layout"></VmMarkdownMenu>
 ```
 
-### 最后
-
-由于项目使用了**字体图标**, 再加上优化欠佳，导致目前打包上传到npm的文件有**80k**左右，欢迎有任何建议和意见的朋友，或者是用户体验和功能方面的问题，到[github](https://github.com/luosijie/vm-markdown/issues) 反馈
 
 > 先这样了 欢迎star
 
