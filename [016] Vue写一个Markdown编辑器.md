@@ -60,12 +60,31 @@ export default {
 
 ![Markdown文本输入](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_left.PNG?raw=true)
 
-使用 execCommand 来实现文本插入
+兼容Firefox浏览器的文本插入函数
+```js
+function insertText(dom,string) {
+  if (document.execCommand('insertText', false, string)) {
+    return
+  }else{
+    let start = dom.selectionStart
+    let end = dom.selectionEnd
+    dom.value = dom.value.substring(0, start) + string + dom.value.substring(end, dom.value.length)
+    dom.selectionStart = start + string.length;
+    dom.selectionEnd = start + string.length;
+    dom.focus()
+  }
+}
+export default insertText
+```
 
 ```js
+  import insertText from '../assets/js/insertText.js'
+  ...
   methods: {
     insertText(string){
-      document.execCommand('insertText', false, string)
+      let content = document.querySelector('.vm-markdown-content')
+      insertText(content, string)
+      this.$emit('textChange', content.value)
     }
   }
 ```
