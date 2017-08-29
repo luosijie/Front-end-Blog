@@ -45,7 +45,7 @@ export default {
 
 # 功能实现
 
-vm-markdown作为一款 **以简洁易用为目标** 的编辑器, 核心解析功能由 **Marked** 来完成, 而其他功能主要为优化部分不熟悉**Markdown语法**用户的使用体验。
+**vm-markdown**作为一款 **以简洁易用为目标** 的编辑器, 核心解析功能由 **Marked** 来完成, 而其他功能主要为优化部分不熟悉**Markdown语法**用户的使用体验。
 主要功能可以分为:
 
 - 将Markdown文本插入编辑框
@@ -202,9 +202,9 @@ Dom结构
 
 ## 表格的的快速输入
 
-Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作实现快捷输入
-
 ![表格输入](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_table.PNG?raw=true)
+
+Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作实现快捷输入
 
 ```
   <ul class="vm-markdown-table" v-insertTable:color="filterColor">
@@ -276,7 +276,7 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 
 ![缩放功能](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_menu_right.png?raw=true)
 
-缩放功能就比较简单了
+实现缩放的layout函数
 
 ```
   layout: function (event) {
