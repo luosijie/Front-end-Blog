@@ -17,7 +17,7 @@ npm install --save vm-markdwon
 
 ### 使用
 
-```vue
+```js
 import VmMarkdown from 'vm-markdwon'
 export default {
   ...
@@ -60,7 +60,7 @@ export default {
 
 使用 execCommand 来实现文本插入
 
-```vue
+```js
   methods: {
     insertText(string){
       document.execCommand('insertText', false, string)
@@ -83,8 +83,8 @@ export default {
 
 Dom结构
 
-```vue
-  ...
+```html
+  ...
   <div class="vm-markdown-edit" :style="{backgroundColor: themeValue.bgLeft}">
     // 输入部分
     <textarea v-focus class="content-markdown" v-model="markdString"></textarea>
@@ -97,7 +97,7 @@ Dom结构
 
 引入 Marked 解析, 并实时预览
 
-```vue
+```js
   import marked from 'marked'
   watch: {
     markdString(value){
@@ -123,7 +123,7 @@ Dom结构
 
 因为 Marked 解析出来的html，是不带任何样式的，所以需要自定义样式，并确保最后输出带样式的html字符串
 
-```
+```js
   parseHtml: function () {
       let style = {
         ul: `
@@ -206,12 +206,12 @@ Dom结构
 
 Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作实现快捷输入
 
-```
+```html
   <ul class="vm-markdown-table" v-insertTable:color="filterColor">
   </ul>
 ```
 
-```
+```js
   directives:{
     insertTable: {
       inserted: function(el,binding){
@@ -278,7 +278,7 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 
 实现缩放的layout函数
 
-```
+```vue
   layout: function (event) {
       let VmMarkdown = document.querySelector('.vm-markdown')
       let VmMarkdownEdit = document.querySelector('.vm-markdown-edit')    
@@ -310,7 +310,7 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 
 将layout绑定到顶部菜单的点击事件中
 
-```
+```vue
 <VmMarkdownMenu  @click.native="layout"></VmMarkdownMenu>
 ```
 
