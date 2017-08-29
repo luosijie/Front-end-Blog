@@ -8,9 +8,6 @@
 |:---------|:------------------------------------------------------------------------------------|
 | 源码地址 | [https://github.com/luosijie/vm-markdown](https://github.com/luosijie/vm-markdown) |
 
-暂时不支持火狐浏览器
-
-
 ### 安装
 
 ```bash
