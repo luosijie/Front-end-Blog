@@ -1,12 +1,15 @@
-![图片]()
+![vm-markdown](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_ad.PNG?raw=true)
 
 这是最近用Vue写的一个Markeddown编辑器, 主要目的是扩展[Vue-Manager](https://github.com/luosijie/vue-manager)的编辑器功能。核心功能引入了[Marked](https://github.com/chjj/marked)插件,将Markedown文档解析为html。样式基本沿用了[vm-editor]，并增加了多种主题选择的功能。
 
 项目已经打包上传到[npm](https://www.npmjs.com/package/vm-markdown)，欢迎使用。
 
-预览地址 [https://luosijie.github.io/vm-markdown/](https://luosijie.github.io/vm-markdown/)
+| 预览地址 | [https://luosijie.github.io/vm-markdown/](https://luosijie.github.io/vm-markdown/) |
+|---------|------------------------------------------------------------------------------------|
 
-源码地址 [https://github.com/luosijie/vm-markdown](https://github.com/luosijie/vm-markdown)
+
+| 源码地址 | [https://github.com/luosijie/vm-markdown](https://github.com/luosijie/vm-markdown) |
+| ------- | ----------------------------------------------------------------------------------  |
 
 ### 安装
 
@@ -55,6 +58,8 @@ vm-markdown作为一款 **以简洁易用为目标** 的编辑器, 核心解析�
 
 ## Markdown文本插入
 
+![Markdown文本输入](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_left.PNG?raw=true)
+
 使用 execCommand 来实现文本插入
 
 ```vue
@@ -75,6 +80,8 @@ vm-markdown作为一款 **以简洁易用为目标** 的编辑器, 核心解析�
 ```
 
 ## Markdown文本解析为html
+
+![解析Markdown为html](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_editor.PNG?raw=true)
 
 Dom结构
 
@@ -113,6 +120,8 @@ Dom结构
 ```
 
 ## 增加自定义样式
+
+![样式化html](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_right.PNG?raw=true)
 
 因为 Marked 解析出来的html，是不带任何样式的，所以需要自定义样式，并确保最后输出带样式的html字符串
 
@@ -197,6 +206,8 @@ Dom结构
 
 Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作实现快捷输入
 
+![表格输入](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_table.PNG?raw=true)
+
 ```
   <ul class="vm-markdown-table" v-insertTable:color="filterColor">
   </ul>
@@ -265,7 +276,7 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 
 ## 编辑区的缩放功能
 
-![编辑区域]()
+![缩放功能](https://github.com/luosijie/Front-end-Blog/blob/master/img/vm_markdown_menu_right.png?raw=true)
 
 缩放功能就比较简单了
 
