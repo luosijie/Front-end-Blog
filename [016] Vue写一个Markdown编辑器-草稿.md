@@ -33,7 +33,7 @@ export default {
 }
 ```
 
-```vue
+```html
 <VmMarkdown :theme="theme" 
             width="1000px" 
             height="600px" 
@@ -70,7 +70,7 @@ export default {
 
 按钮绑定 **insertText(string)** 事件
 
-```vue
+```html
   ...
   <VmMarkdownButton icon="iconfont icon-bold" @click.native="insertText(' **Bold** ')"></VmMarkdownButton>
   <VmMarkdownButton icon="iconfont icon-italic" @click.native="insertText(' *Italic* ')"></VmMarkdownButton>
@@ -278,7 +278,7 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 
 实现缩放的layout函数
 
-```vue
+```html
   layout: function (event) {
       let VmMarkdown = document.querySelector('.vm-markdown')
       let VmMarkdownEdit = document.querySelector('.vm-markdown-edit')    
@@ -310,12 +310,9 @@ Markdown的表格是相对繁琐的输入，vm-markown借用图形化的操作�
 
 将layout绑定到顶部菜单的点击事件中
 
-```vue
+```html
 <VmMarkdownMenu  @click.native="layout"></VmMarkdownMenu>
 ```
 
 
 > 先这样了 欢迎star
-
-
-
