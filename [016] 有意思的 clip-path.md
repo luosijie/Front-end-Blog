@@ -14,7 +14,7 @@ F12看了一下 Dom 结构，发现作者只是结合了 CSS3 的 clip-path 和 
 
 先从一个简单的 clip-path 变形开始
 
-![clip-path 动画](https://github.com/luosijie/Front-end-Blog/blob/master/img/ani-clipath-simple-move.gif?raw=true)
+![clip-path 动画](https://github.com/luosijie/Front-end-Blog/blob/master/img/ani-clipath-simple.gif?raw=true)
 
 ```html
 <!DOCTYPE html>
@@ -50,13 +50,17 @@ F12看了一下 Dom 结构，发现作者只是结合了 CSS3 的 clip-path 和 
 ### 设计
 我们需要先设计出满意的低边图案，注意控制三角形的数量，越少越好越少越好越少越好越少越好越少越好越少越好
 
-![低边图案]()
+![shark](https://github.com/luosijie/Front-end-Blog/blob/master/img/ani-clipath-shark.png?raw=true)
 
-。接下来，需要将每个三角形的坐标和色值转化为数据格式。我目前找不到很高效的转化方式，就用标注软件标注完后，手工录入,最后画了3个就结束了。所以三角形的数量越少越好越少越好越少越好越少越好越少越好越少越好。
+![shark](https://github.com/luosijie/Front-end-Blog/blob/master/img/ani-clipath-bird.png?raw=true)
+
+![shark](https://github.com/luosijie/Front-end-Blog/blob/master/img/ani-clipath-fee.png?raw=true)
+
+接下来，需要将每个三角形的坐标和色值转化为数据格式。我目前找不到很高效的转化方式，就用标注软件标注完后，手工录入,最后画了3个就结束了。所以三角形的数量越少越好越少越好越少越好越少越好越少越好越少越好。
 
 > 或者你有很好的方式介绍，请一定要告诉我。
 
-![图形转为数据]()
+![图形转为数据](https://github.com/luosijie/Front-end-Blog/blob/master/img/ani-clipath-dada.png?raw=true)
 
 现在准备工作完成了，最痛苦的阶段也已经过去了
 
