@@ -74,4 +74,84 @@ F12看了一下 Dom 结构，发现作者只是结合了 CSS3 的 clip-path 和 
 
 区区几行代码就不贴出来了，感兴趣的移步 [github](https://github.com/luosijie/ani-clipath)
 
-> 欢迎star
+### 不过我想介绍一下封装好的插件的使用方法
+
+### 安装
+
+#### CDN
+
+```html
+<script src="https://unpkg.com/ani-clipath/dist/ani-clipath.min.js">
+```
+#### NPM
+```bash
+npm install --save ani-clipath
+```
+### 使用
+
+需要自定义一个 DOM 容器，并设置好**width**和**height**
+```html
+<style>
+  .shapes{
+    width: 800px;
+    height: 600px;
+  }
+</style>
+...
+<div class="shapes"></div>
+```
+初始化一个实例，并传入参数
+
+| 参数 | 类型 | 说明 |
+| ---- | ---- | ---- |
+| el   | String | 绑定DOM容器 |
+| speed | Number |  控制变化速度 |
+| delay | Number | 控制变化的延迟 |
+| shapes | Array | 低边图形的坐标 |
+
+使用公共方法切换
+
+| 方法 | 说明 |
+| ---- | ---- |
+| next()  | 切换下一个图形 |
+| previous | 切换上一个图形 |
+
+```js
+<script>
+  var aniClipath = new AniClipath({
+    el: '.shapes',
+    speed: 1000,
+    delay: 30,
+    shapes: data
+  })
+  setInterval(function(){
+    aniClipath.next()
+  },3000)
+</script>
+```
+shapes 属性的数据格式
+```js
+var data = [
+  第 1 个低边图形
+  [
+    // 基本图形参数
+    { 
+      // 颜色
+      c: '#1A1A1A',
+      // polygon坐标
+      p: [ { x: '50%', y: '30%' }, { x: '30%', y: '70%' }, { x: '70%', y: '70%' }]
+    }
+  ],
+  第 2 个低边图形
+  [
+    {
+      c: '#E6E6E6',
+      p: [ { x: '50%', y: '70%' }, { x: '30%', y: '30%' }, { x: '70%', y: '30%' }]
+    }
+  ]
+  ...
+  第 n 个低边图形
+]
+```
+
+> 先这样了 欢迎star
