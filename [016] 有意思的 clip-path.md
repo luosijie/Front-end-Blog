@@ -74,7 +74,7 @@ F12看了一下 Dom 结构，发现作者只是结合了 CSS3 的 clip-path 和 
 
 区区几行代码就不贴出来了，感兴趣的移步 [github](https://github.com/luosijie/ani-clipath)
 
-### 不过我想介绍一下封装好的插件的使用方法
+## 不过我想介绍一下封装好的插件的使用方法
 
 ### 安装
 
