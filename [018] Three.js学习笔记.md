@@ -82,7 +82,7 @@
 </body>
 </html>
 ```
-# 构建几何体
+
 ## 二维几何体
 ### 平面 PlaneGeomery
 ```js
