@@ -2,9 +2,9 @@
 
 下面放几张不同角度的效果图
 
-![微场景-斜视]()
-![微场景-正面]()
-![微场景-背面]()
+![微场景-斜视](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-default.PNG?raw=true)
+![微场景-正面](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-front.PNG?raw=true)
+![微场景-背面](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-back.PNG?raw=true)
 
 #### 预览地址 [https://luosijie.github.io/threejs-examples/mini-city.html](https://luosijie.github.io/threejs-examples/mini-city.html)
 #### 源码地址 [https://github.com/luosijie/threejs-examples](https://github.com/luosijie/threejs-examples)
@@ -19,11 +19,11 @@
 首先你要清楚自己想实现的效果, 就需要一张效果图, 然后才能根据效果图来建模。 
 我在网上找到一张自己喜欢的风格的建筑图做参考，明确自己大概要实现的效果，但结果不一定要一模一样。
 
-![效果图]()
+![效果图](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-rendering.png?raw=true)
 
 然后根据效果图，画出自己想要的模型的平面图，方便模型中物体的精确定位
 
-![平面图]()
+![平面图](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-floorplan.PNG?raw=true)
 
 ### 开发
 > Three.js来构建一个类似的微场景, 还是比较简单的。基本上就是在 **场景** 中 **打好灯光** 和 **摄像机位置**, 然后往 **场景** 添加各种几何图形，通过几个图形和材质的组合，构建出不同的模型和场景。对开发者的空间想象力有一定的要求。
@@ -113,7 +113,7 @@ if (!config.isMobile) {
 
 ##### 树
 
-![树]()
+![树](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-tree.PNG?raw=true)
 
 > 在我的案例中, 树围绕在建筑周围, 所以需要一个 **单体树**, 还有树的坐标(可以通过平面图得出), 然后根据坐标,在每个位置放置一个树
 
@@ -163,7 +163,7 @@ function createTree (x, y, z) {
 
 ##### 汽车
 
-![汽车]()
+![汽车](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-car.PNG?raw=true)
 
 > 汽车是场景中唯一运动的元素, 也是相对复杂的物体, 除了车身的构建, 还需要开放 **前进** , **后退**, **转弯** 等方法, 方便以后实现运动效果, 所以我单独封装
 
