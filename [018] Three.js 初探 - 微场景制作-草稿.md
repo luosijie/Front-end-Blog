@@ -1,4 +1,4 @@
-最近在捣鼓 Three.js 相关, 觉得做一个微场景是一个很不错的应用，结果做下来发现效果还可以。
+最近在捣鼓 Three.js 相关, 觉得做一个微场景是一个很不错的选择，结果做下来发现效果还可以。
 
 下面放几张不同角度的效果图
 
@@ -241,3 +241,28 @@ Car.prototype = {
   }
 }
 ```
+```js
+ // 生成汽车
+ function buildStaticCars () {
+   var carsPosition = [
+     [-84, 82, 1.5], [-58, 82, 1.5], [-32, 82, 1.5] , [84, 82, 1.5]
+   ]
+   carsPosition.forEach(function (elem) {
+     var car = new Car()
+     var x = elem[0],
+         z = elem[1],
+         r = elem[2]
+     car.setPosition(x, 0, z)
+     car.mesh.rotation.y = r * Math.PI
+     scene.add(car.mesh)
+   })
+ }
+```
+#### 最后
+作为自己入门Three.js的一个案例, 还是以实现基本效果为目标, 最终效果和期望的还是有一定的差距, 所以未来还将不断探索Three.js的一些高级技巧。 
+
+如果有对 three.js 感兴趣的朋友, 我觉得可以通过学习一款 三维设计 软件, 来 **培养自己的空间想象能力** 或者 **只是辅助熟悉3D环境**。
+可以选择的3D软件有 **3DMax**, **Maya**, **C4D**等, 我觉得各有优势, 又大同小异。
+我推荐一款叫 **Blender** 的软件, 因为这个软件是开源的, 体积又小, 而且又有辅助 Three.js 的插件
+
+大概就到这里了, 欢迎star
