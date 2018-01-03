@@ -1,14 +1,15 @@
 最近在离职的空窗期，感觉大把的时间不能用来浪费，就试着仿照微信跳一跳写一个极简版的
 ##### 那么到底是简单到什么程度，差不多就是到这个程度吧
-![图片]()
+![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_01.png)
+![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_02.png)
+![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_03.png)
 #### 预览地址: [https://luosijie.github.io/threejs-examples/jump.html](https://luosijie.github.io/threejs-examples/jump.html)
 #### 源码地址: [https://github.com/luosijie/threejs-examples/blob/master/jump.html](https://github.com/luosijie/threejs-examples/blob/master/jump.html)
-> 由于是第一次尝试写游戏, 也不知道套路对不对, 大家看着玩就好, 手机上的效果不太行
+> 由于是第一次尝试写游戏, 也不知道套路对不对, 大家看着玩就好, 不推荐在手机上预览
 
 #### 下面是实现过程
 ### 游戏分析
 首先分析一下一个这样的游戏需要什么元素
-![游戏元素] ()
 1. Three.js必备元素: 场景，灯光，摄像机
 2. 一块又一块的方块
 3. **会跳的那个**，或者叫游戏者
@@ -22,6 +23,21 @@
 5. 成功后进入下一步，失败就根据 位置 执行不同的摔倒方式
 
 #### 关于游戏的碰撞, 我们要考虑这几种情况
+1. 掉落在两个方块中央
+![掉落在两个方块中央]()
+2. 掉落在起跳方块左边上沿
+![掉落在起跳方块左边上沿]()
+3. 掉落在左边下一个方块下沿
+![掉落在左边下一个方块下沿]()
+4. 掉落在左边下一个方块上沿
+![掉落在左边下一个方块上沿]()
+5. 掉落在起跳方块右边上沿
+![掉落在起跳方块右边上沿]()
+6. 掉落在右边下一个方块下沿
+![掉落在右边下一个方块下沿]()
+7. 掉落在右边下一个方块上沿
+![掉落在右边下一个方块上沿]()
+
 
 ### 代码结构
 > 感兴趣的麻烦移步 [github](https://github.com/luosijie/threejs-examples/blob/master/jump.html)
