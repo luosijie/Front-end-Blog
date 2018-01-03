@@ -74,7 +74,7 @@ Game.prototype = {
 ```
 调用
 ```js
-var game = new Game(success,failed)
+var game = new Game()
 game.init()
 game.addSuccessFn(success)
 game.addFailedFn(failed)
