@@ -3,8 +3,8 @@
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_01.png)
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_02.png)
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_03.png)
-#### 预览地址: [https://luosijie.github.io/threejs-examples/jump.html](https://luosijie.github.io/threejs-examples/jump/jump.html)
-#### 源码地址: [https://github.com/luosijie/threejs-examples/blob/master/jump.html](https://github.com/luosijie/threejs-examples/tree/master/jump)
+#### 预览地址: [https://luosijie.github.io/threejs-examples/jump/jump.html](https://luosijie.github.io/threejs-examples/jump/jump.html)
+#### 源码地址: [https://github.com/luosijie/threejs-examples/tree/master/jump](https://github.com/luosijie/threejs-examples/tree/master/jump)
 > 由于是第一次尝试写游戏, 也不知道套路对不对, 大家看着玩就好, 不要太认真, 不推荐在手机上预览, 坑还没有填好
 
 #### 下面是实现过程
