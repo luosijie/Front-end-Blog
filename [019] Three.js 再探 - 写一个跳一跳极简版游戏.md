@@ -1,4 +1,4 @@
-最近在离职的空窗期，感觉大把的时间不能用来浪费，就试着仿照微信跳一跳写一个极简版的
+最近在离职的空窗期，感觉大把的时间不能用来浪费，就试着仿照微信跳一跳写一个极简版的游戏
 ##### 那么到底是简单到什么程度，差不多就是到这个程度吧
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_01.png)
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_02.png)
