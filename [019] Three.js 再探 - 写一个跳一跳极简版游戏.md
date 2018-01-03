@@ -1,11 +1,11 @@
-最近在离职的空窗期，感觉大把的时间不能用来浪费，就试着仿照微信跳一跳写一个极简版的游戏
-##### 那么到底是简单到什么程度，差不多就是到这个程度吧
+最近在离职的空窗期，感觉大把的时间不能用来浪费，就试着仿照微信跳一跳写了一个极简版的游戏
+##### 那么这个游戏到底是简单到什么程度，差不多就是到下面这个程度吧
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_01.png)
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_02.png)
 ![图片](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_03.png)
 #### 预览地址: [https://luosijie.github.io/threejs-examples/jump.html](https://luosijie.github.io/threejs-examples/jump.html)
 #### 源码地址: [https://github.com/luosijie/threejs-examples/blob/master/jump.html](https://github.com/luosijie/threejs-examples/tree/master/jump)
-> 由于是第一次尝试写游戏, 也不知道套路对不对, 大家看着玩就好, 不推荐在手机上预览
+> 由于是第一次尝试写游戏, 也不知道套路对不对, 大家看着玩就好, 不要太认真, 不推荐在手机上预览, 坑还没有填好
 
 #### 下面是实现过程
 ### 游戏分析
@@ -94,5 +94,7 @@ function success (score) {
 	...
 }
 ```
+
+最后有什么好玩的js相关, 欢迎一起交流
 
 > 先这样了, 欢迎star
