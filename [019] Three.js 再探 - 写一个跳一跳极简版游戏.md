@@ -24,24 +24,25 @@
 
 #### 关于游戏的碰撞, 我们要考虑这几种情况
 1. 掉落在两个方块中央
-![掉落在两个方块中央]()
+![掉落在两个方块中央](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_1.png)
 2. 掉落在起跳方块左边上沿
-![掉落在起跳方块左边上沿]()
+![掉落在起跳方块左边上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_2.png)
 3. 掉落在左边下一个方块下沿
-![掉落在左边下一个方块下沿]()
+![掉落在左边下一个方块下沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_3.png)
 4. 掉落在左边下一个方块上沿
-![掉落在左边下一个方块上沿]()
+![掉落在左边下一个方块上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_4.png)
 5. 掉落在起跳方块右边上沿
-![掉落在起跳方块右边上沿]()
+![掉落在起跳方块右边上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_5.png)
 6. 掉落在右边下一个方块下沿
-![掉落在右边下一个方块下沿]()
+![掉落在右边下一个方块下沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_6.png)
 7. 掉落在右边下一个方块上沿
-![掉落在右边下一个方块上沿]()
+![掉落在右边下一个方块上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_7.png)
 
 
-### 代码结构
+### 代码
 > 感兴趣的麻烦移步 [github](https://github.com/luosijie/threejs-examples/blob/master/jump.html)
 
+主体结构
 ```js
 var Game = function () {
   ...
@@ -94,3 +95,4 @@ function success (score) {
 }
 ```
 
+> 先这样了, 欢迎star
