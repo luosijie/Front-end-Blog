@@ -6,7 +6,7 @@
 ![微场景-正面](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-front.PNG?raw=true)
 ![微场景-背面](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs-example-mini-city-back.PNG?raw=true)
 
-#### 预览地址 [https://luosijie.github.io/threejs-examples/mini-city.html](https://luosijie.github.io/threejs-examples/mini-city.html)
+#### 预览地址 https://luosijie.github.io/threejs-examples/jump/jump.html](https://luosijie.github.io/threejs-examples/jump/jump.html)
 #### 源码地址 [https://github.com/luosijie/threejs-examples](https://github.com/luosijie/threejs-examples)
 
 > 配置较差的设备上预览效果不是很理想, 待优化中
