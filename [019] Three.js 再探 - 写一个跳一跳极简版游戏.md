@@ -23,24 +23,31 @@
 5. 成功后进入下一步，失败就根据 位置 执行不同的摔倒方式
 
 #### 关于游戏的碰撞, 我们要考虑这几种情况
+
 1. 掉落在两个方块中央
 
 ![掉落在两个方块中央](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_1.png)
+
 2. 掉落在起跳方块左边上沿
 
 ![掉落在起跳方块左边上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_2.png)
+
 3. 掉落在左边下一个方块下沿
 
 ![掉落在左边下一个方块下沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_3.png)
+
 4. 掉落在左边下一个方块上沿
 
 ![掉落在左边下一个方块上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_4.png)
+
 5. 掉落在起跳方块右边上沿
 
 ![掉落在起跳方块右边上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_5.png)
+
 6. 掉落在右边下一个方块下沿
 
 ![掉落在右边下一个方块下沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_6.png)
+
 7. 掉落在右边下一个方块上沿
 
 ![掉落在右边下一个方块上沿](https://github.com/luosijie/Front-end-Blog/blob/master/img/threejs_example_jump_04_7.png)
