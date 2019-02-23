@@ -1,38 +1,41 @@
-### 显示分支名
-1:进入 /etc/profile下
+### Git显示分支名
+1 进入你的home目录
 
-2:将以下代码复制上去（使用sudo vi profile进行编辑，不然没法保存）
 ```bash
-find_git_branch () {
-    local dir=. head
-    until [ "$dir" -ef / ]; do
-        if [ -f "$dir/.git/HEAD" ]; then
-            head=$(< "$dir/.git/HEAD")
-            if [[ $head = ref:\ refs/heads/* ]]; then
-                git_branch=" → ${head#*/*/}"
-            elif [[ $head != '' ]]; then
-                git_branch=" → (detached)"
-            else
-                git_branch=" → (unknow)"
-            fi
-            return
-        fi
-        dir="../$dir"
-    done
-    git_branch=''
-}
-PROMPT_COMMAND="find_git_branch; $PROMPT_COMMAND"
-black=$'\[\e[1;30m\]'
-red=$'\[\e[1;31m\]'
-green=$'\[\e[1;32m\]'
-yellow=$'\[\e[1;33m\]'
-blue=$'\[\e[1;34m\]'
-magenta=$'\[\e[1;35m\]'
-cyan=$'\[\e[1;36m\]'
-white=$'\[\e[1;37m\]'
-normal=$'\[\e[m\]'
-
-PS1="$white[$magenta\u$white@$green\h$white:$cyan\w$yellow\$git_branch$white]\$ $normal"
+cd ~
 ```
 
-3:退出profile 使用source profile 使其生效。
+2 编辑.bashrc文件
+
+```bash
+vi .bashrc
+```
+
+3 将下面的代码加入到文件的最后处
+
+```bash
+function git_branch { 
+  branch="`git branch 2>/dev/null | grep "^\*" | sed -e "s/^\*\ //"`" 
+  if [ "${branch}" != "" ];then 
+    if [ "${branch}" = "(no branch)" ];then 
+      branch="(`git rev-parse --short HEAD`...)" 
+    fi 
+    echo " ($branch)"
+  fi
+}
+export PS1='\u@\h \[\033[01;36m\]\W\[\033[01;32m\]$(git_branch)\[\033[00m\] \$ '
+```
+
+4 保存退出
+
+5 执行加载命令
+
+```bash
+source ./.bashrc
+```
+6 Mac下面启动的 shell 是 login shell，所以加载的配置文件是.bash_profile，不会加载.bashrc。如果你是 Mac 用户的话，需要再执行下面的命令，这样每次开机后才会自动生效：
+```bash
+echo "[ -r ~/.bashrc ] && source ~/.bashrc" >> .bash_profile
+```
+7 完成
+
